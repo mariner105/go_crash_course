@@ -13,6 +13,7 @@ func main() {
 
     // Use * to read val from address
     fmt.Println(*b)
+    fmt.Println(*&a)
 
     // Change val with pointer
     *b = 10 //This will change the value of a
